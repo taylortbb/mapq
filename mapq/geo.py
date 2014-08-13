@@ -16,7 +16,7 @@ class Geo(object):
 
     def __init__(self, api_key=None):
         self._set_key(api_key)
-        self.endpoint = "http://www.mapquestapi.com/geocoding/v1"
+        self.endpoint = "http://open.mapquestapi.com/geocoding/v1"
 
     def _set_key(self, api_key):
         """Configure the instance's Mapquest API key."""
