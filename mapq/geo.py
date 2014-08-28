@@ -53,7 +53,7 @@ class Geo(object):
         kwargs['location'] = locations
         return self.get('batch', **kwargs)
 
-    def reverse(self, lat, lng, **kwargs):
+    def reverse(self, lng, lat, **kwargs):
         """
         Reverse geocode latitude and longitude coordinates.
 
