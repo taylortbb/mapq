@@ -33,6 +33,6 @@ def latlng(address, **kwargs):
     return Geo().latlng(address, **kwargs)
 
 
-def reverse(lat, lng, **kwargs):
-    """Reverse geocode lat/lng coordinates."""
-    return Geo().reverse(lat, lng, **kwargs)
+def reverse(lng, lat, **kwargs):
+    """Reverse geocode lng/lat coordinates."""
+    return Geo().reverse(lng, lat, **kwargs)
