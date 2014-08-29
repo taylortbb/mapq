@@ -34,7 +34,7 @@ Interacting with the Mapquest Geocoding API should be easy.
 
 setup(
     name="mapq",
-    version="0.3",
+    version="0.4",
     url="http://github.com/zachwill/mapq",
     author="Zach Williams",
     author_email="hey@zachwill.com",
